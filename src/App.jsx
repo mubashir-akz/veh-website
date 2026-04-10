@@ -11,6 +11,7 @@ import AddVehicle from './pages/AddVehicle';
 import FuelLog from './pages/FuelLog';
 import Expenses from './pages/Expenses';
 import ServiceHistory from './pages/ServiceHistory';
+import ServiceReminders from './pages/ServiceReminders';
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated, isLoading } = useAuth();
@@ -47,6 +48,7 @@ function AppRoutes() {
                 <Route path="/fuel-log" element={<FuelLog />} />
                 <Route path="/expenses" element={<Expenses />} />
                 <Route path="/service-history" element={<ServiceHistory />} />
+                <Route path="/reminders" element={<ServiceReminders />} />
               </Routes>
             </Layout>
           </ProtectedRoute>

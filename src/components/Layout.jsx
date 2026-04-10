@@ -6,6 +6,7 @@ import {
   Fuel, 
   Receipt, 
   Wrench,
+  Bell,
   LogOut,
   Menu
 } from 'lucide-react';
@@ -19,6 +20,7 @@ const navItems = [
   { to: '/add-vehicle', icon: PlusCircle, label: 'Add Vehicle' },
   { to: '/fuel-log', icon: Fuel, label: 'Fuel Log' },
   { to: '/expenses', icon: Receipt, label: 'Expenses' },
+  { to: '/reminders', icon: Bell, label: 'Reminders' },
   { to: '/service-history', icon: Wrench, label: 'Service History' },
 ];
 
