@@ -6,6 +6,7 @@ import {
   Receipt, 
   Wrench,
   Bell,
+  Navigation,
   LogOut
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -17,6 +18,7 @@ const navItems = [
   { to: '/vehicles', icon: Car, label: 'My Vehicles' },
   { to: '/fuel-log', icon: Fuel, label: 'Fuel Log' },
   { to: '/expenses', icon: Receipt, label: 'Expenses' },
+  { to: '/trips', icon: Navigation, label: 'Trip Logger' },
   { to: '/reminders', icon: Bell, label: 'Reminders' },
   { to: '/service-history', icon: Wrench, label: 'Service History' },
 ];

@@ -12,6 +12,7 @@ import FuelLog from './pages/FuelLog';
 import Expenses from './pages/Expenses';
 import ServiceHistory from './pages/ServiceHistory';
 import ServiceReminders from './pages/ServiceReminders';
+import TripLogger from './pages/TripLogger';
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated, isLoading } = useAuth();
@@ -49,6 +50,7 @@ function AppRoutes() {
                 <Route path="/expenses" element={<Expenses />} />
                 <Route path="/service-history" element={<ServiceHistory />} />
                 <Route path="/reminders" element={<ServiceReminders />} />
+                <Route path="/trips" element={<TripLogger />} />
               </Routes>
             </Layout>
           </ProtectedRoute>
