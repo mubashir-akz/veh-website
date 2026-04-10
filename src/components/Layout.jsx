@@ -2,13 +2,11 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import { 
   LayoutDashboard, 
   Car, 
-  PlusCircle, 
   Fuel, 
   Receipt, 
   Wrench,
   Bell,
-  LogOut,
-  Menu
+  LogOut
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { theme } from '../theme';
@@ -17,7 +15,6 @@ import { useState } from 'react';
 const navItems = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/vehicles', icon: Car, label: 'My Vehicles' },
-  { to: '/add-vehicle', icon: PlusCircle, label: 'Add Vehicle' },
   { to: '/fuel-log', icon: Fuel, label: 'Fuel Log' },
   { to: '/expenses', icon: Receipt, label: 'Expenses' },
   { to: '/reminders', icon: Bell, label: 'Reminders' },
@@ -36,7 +33,6 @@ export default function Layout({ children }) {
 
   return (
     <div className="layout">
-      {sidebarOpen && (
         <aside className="sidebar">
           <div className="sidebar-header">
             <div className="sidebar-logo">V</div>

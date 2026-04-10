@@ -43,92 +43,89 @@ Call log:
         - /url: /vehicles
         - img [ref=e17]
         - generic [ref=e21]: My Vehicles
-      - link "Add Vehicle" [ref=e22] [cursor=pointer]:
-        - /url: /add-vehicle
-        - img [ref=e23]
-        - generic [ref=e25]: Add Vehicle
-      - link "Fuel Log" [ref=e26] [cursor=pointer]:
+      - link "Fuel Log" [ref=e22] [cursor=pointer]:
         - /url: /fuel-log
-        - img [ref=e27]
-        - generic [ref=e30]: Fuel Log
-      - link "Expenses" [ref=e31] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e26]: Fuel Log
+      - link "Expenses" [ref=e27] [cursor=pointer]:
         - /url: /expenses
-        - img [ref=e32]
-        - generic [ref=e35]: Expenses
-      - link "Reminders" [ref=e36] [cursor=pointer]:
+        - img [ref=e28]
+        - generic [ref=e31]: Expenses
+      - link "Reminders" [ref=e32] [cursor=pointer]:
         - /url: /reminders
-        - img [ref=e37]
-        - generic [ref=e40]: Reminders
-      - link "Service History" [ref=e41] [cursor=pointer]:
+        - img [ref=e33]
+        - generic [ref=e36]: Reminders
+      - link "Service History" [ref=e37] [cursor=pointer]:
         - /url: /service-history
-        - img [ref=e42]
-        - generic [ref=e44]: Service History
-    - generic [ref=e45]:
-      - generic [ref=e46]: test@example.com
-      - button "Logout" [ref=e47] [cursor=pointer]:
-        - img [ref=e48]
-        - generic [ref=e51]: Logout
-  - main [ref=e52]:
-    - generic [ref=e53]:
-      - generic [ref=e54]:
-        - generic [ref=e55]:
-          - heading "Service Reminders" [level=1] [ref=e56]
-          - paragraph [ref=e57]: Never miss a service again
-        - button "Add Reminder" [ref=e58] [cursor=pointer]:
-          - img [ref=e59]
+        - img [ref=e38]
+        - generic [ref=e40]: Service History
+    - generic [ref=e41]:
+      - generic [ref=e42]: test@example.com
+      - button "Logout" [ref=e43] [cursor=pointer]:
+        - img [ref=e44]
+        - generic [ref=e47]: Logout
+  - text: ")}"
+  - main [ref=e48]:
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - heading "Service Reminders" [level=1] [ref=e52]
+          - paragraph [ref=e53]: Never miss a service again
+        - button "Add Reminder" [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
           - text: Add Reminder
-      - generic [ref=e60]:
-        - generic [ref=e61]:
-          - generic [ref=e62]: Overdue
-          - generic [ref=e63]: "0"
-        - generic [ref=e64]:
-          - generic [ref=e65]: Due Soon
-          - generic [ref=e66]: "1"
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: Overdue
+          - generic [ref=e59]: "0"
+        - generic [ref=e60]:
+          - generic [ref=e61]: Due Soon
+          - generic [ref=e62]: "1"
+        - generic [ref=e63]:
+          - generic [ref=e64]: Upcoming
+          - generic [ref=e65]: "2"
+      - generic [ref=e66]:
         - generic [ref=e67]:
-          - generic [ref=e68]: Upcoming
-          - generic [ref=e69]: "2"
-      - generic [ref=e70]:
-        - generic [ref=e71]:
-          - heading "All Reminders" [level=3] [ref=e72]
-          - generic [ref=e74]:
-            - img [ref=e75]
+          - heading "All Reminders" [level=3] [ref=e68]
+          - generic [ref=e70]:
+            - img [ref=e71]
             - text: Auto-reminders enabled
-        - generic [ref=e78]:
-          - generic [ref=e79]:
-            - img [ref=e81]
-            - generic [ref=e83]:
-              - generic [ref=e84]: Oil Change
-              - generic [ref=e85]: "Toyota Camry • Due: Apr 15, 2026"
-              - generic [ref=e86]:
-                - img [ref=e87]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e79]:
+              - generic [ref=e80]: Oil Change
+              - generic [ref=e81]: "Toyota Camry • Due: Apr 15, 2026"
+              - generic [ref=e82]:
+                - img [ref=e83]
                 - text: "Odometer: 46,000 km • 3 months recurring"
-            - generic [ref=e89]: Scheduled
-            - button "Mark Done" [ref=e90] [cursor=pointer]:
-              - img [ref=e91]
+            - generic [ref=e85]: Scheduled
+            - button "Mark Done" [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
               - text: Mark Done
-          - generic [ref=e94]:
-            - img [ref=e96]
-            - generic [ref=e98]:
-              - generic [ref=e99]: Tire Rotation
-              - generic [ref=e100]: "Honda Civic • Due: Apr 20, 2026"
-              - generic [ref=e101]:
-                - img [ref=e102]
+          - generic [ref=e90]:
+            - img [ref=e92]
+            - generic [ref=e94]:
+              - generic [ref=e95]: Tire Rotation
+              - generic [ref=e96]: "Honda Civic • Due: Apr 20, 2026"
+              - generic [ref=e97]:
+                - img [ref=e98]
                 - text: "Odometer: 33,000 km • 5 months recurring"
-            - generic [ref=e104]: Scheduled
-            - button "Mark Done" [ref=e105] [cursor=pointer]:
-              - img [ref=e106]
+            - generic [ref=e100]: Scheduled
+            - button "Mark Done" [ref=e101] [cursor=pointer]:
+              - img [ref=e102]
               - text: Mark Done
-          - generic [ref=e109]:
-            - img [ref=e111]
-            - generic [ref=e113]:
-              - generic [ref=e114]: Brake Inspection
-              - generic [ref=e115]: "Toyota Camry • Due: Apr 10, 2026"
-              - generic [ref=e116]:
-                - img [ref=e117]
+          - generic [ref=e105]:
+            - img [ref=e107]
+            - generic [ref=e109]:
+              - generic [ref=e110]: Brake Inspection
+              - generic [ref=e111]: "Toyota Camry • Due: Apr 10, 2026"
+              - generic [ref=e112]:
+                - img [ref=e113]
                 - text: "Odometer: 45,500 km • 6 months recurring"
-            - generic [ref=e119]: Due Soon
-            - button "Mark Done" [ref=e120] [cursor=pointer]:
-              - img [ref=e121]
+            - generic [ref=e115]: Due Soon
+            - button "Mark Done" [ref=e116] [cursor=pointer]:
+              - img [ref=e117]
               - text: Mark Done
 ```
 
